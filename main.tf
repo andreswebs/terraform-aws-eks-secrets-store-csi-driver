@@ -26,7 +26,7 @@ terraform {
   }
 }
 
-resource "helm_release" "secrets_store_csi_driver" {
+resource "helm_release" "this" {
   name       = var.helm_release_name
   namespace  = var.k8s_namespace
   repository = "https://raw.githubusercontent.com/kubernetes-sigs/secrets-store-csi-driver/master/charts"

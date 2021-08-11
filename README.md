@@ -78,7 +78,7 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [helm_release.secrets_store_csi_driver](https://registry.terraform.io/providers/hashicorp/helm/latest/docs/resources/release) | resource |
+| [helm_release.this](https://registry.terraform.io/providers/hashicorp/helm/latest/docs/resources/release) | resource |
 
 [//]: # (END_TF_DOCS)
 
